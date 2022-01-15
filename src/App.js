@@ -7,13 +7,12 @@ import Submenu from "./Submenu";
 
 const App = () => {
 	return (
-		<div>
-			Hello App
+		<>
 			<Navbar />
-			<Hero />
 			<Sidebar />
+			<Hero />
 			<Submenu />
-		</div>
+		</>
 	);
 };
 
